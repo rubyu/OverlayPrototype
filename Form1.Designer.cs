@@ -28,9 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(278, 244);
+            this.Name = "Form1";
             this.Text = "Form1";
+            /*
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.TopMost = true;
+            */
+            this.ResumeLayout(false);
+
         }
 
         #endregion
